@@ -1,0 +1,8 @@
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+operation = input("Choose operation (+, -, *, /): ")
+if operation == "+": print("Result:", a + b)
+elif operation == "-": print("Result:", a - b)
+elif operation == "*": print("Result:", a * b)
+elif operation == "/": print("Result:", a / b)
+else: print("Invalid operation")
